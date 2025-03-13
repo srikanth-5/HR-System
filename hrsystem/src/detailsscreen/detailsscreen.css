@@ -1,0 +1,60 @@
+/* General page styling */
+.detailspage {
+    display: flex;
+    flex-direction: column;
+    height: 100% auto;
+    font-family: Arial, sans-serif;
+}
+
+/* Heading */
+.detailspage h1 {
+    font-size: 2rem;
+    color: #333;
+
+}
+
+/* Navigation Bar */
+.selectbar {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    width: 100vw auto; 
+    margin: 30px;
+    background: #007bff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Aligning left and right links */
+.selectbar-left, .selectbar-right {
+    display: flex;
+    gap: 15px;
+}
+
+/* Styling Links */
+.selectbar a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 8px 12px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+/* Hover Effect */
+.selectbar a:hover {
+    background: rgb(220, 220, 220);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .selectbar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .selectbar-left, .selectbar-right {
+        flex-direction: column;
+        align-items: center;
+    }
+}

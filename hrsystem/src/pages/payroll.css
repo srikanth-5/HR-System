@@ -1,0 +1,38 @@
+.payroll-container {
+    padding: 20px;
+    height: 100vh;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.salary-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.salary-table th, .salary-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+.salary-table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.salary-table td {
+    background-color: #ffffff;
+}
+
+.editable-input {
+    width: 100px;
+    padding: 5px;
+    font-size: 16px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}

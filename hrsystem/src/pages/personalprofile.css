@@ -1,0 +1,44 @@
+/* personalprofile.css */
+.profile-container {
+    width: 90%;
+    height: 90%;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.profile-table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.profile-table th, .profile-table td {
+    padding: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+.profile-table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+.profile-table input {
+    width: 90% ; 
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.profile-table tr:hover {
+    background-color: #f9f9f9;
+}
